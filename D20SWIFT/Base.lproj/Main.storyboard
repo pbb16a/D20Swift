@@ -16,13 +16,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="d1" translatesAutoresizingMaskIntoConstraints="NO" id="zLs-XT-JLa">
-                                <rect key="frame" x="20" y="244" width="374" height="400"/>
+                                <rect key="frame" x="20" y="239" width="374" height="418"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="zLs-XT-JLa" secondAttribute="height" multiplier="1:1" id="059-d6-pAv"/>
+                                    <constraint firstAttribute="height" constant="418" id="E9z-48-l8O"/>
+                                    <constraint firstAttribute="width" constant="374" id="Wfa-zs-idq"/>
+                                    <constraint firstAttribute="width" secondItem="zLs-XT-JLa" secondAttribute="height" multiplier="17:19" id="qee-0N-t83"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKq-Ff-1oI">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="-407" y="0.0" width="1312" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="rollDiceFromButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="oNZ-t1-oMc"/>
@@ -31,12 +33,8 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zLs-XT-JLa" secondAttribute="trailing" constant="20" id="0KV-4c-I60"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zLs-XT-JLa" secondAttribute="trailing" constant="20" id="3ti-Nx-bEC"/>
-                            <constraint firstItem="zLs-XT-JLa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="AXm-Fn-Ff0"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zLs-XT-JLa" secondAttribute="bottom" constant="200" id="Sr1-Ap-o3J"/>
-                            <constraint firstItem="zLs-XT-JLa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="aXw-8t-kDx"/>
-                            <constraint firstItem="zLs-XT-JLa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dZf-bs-iSW"/>
+                            <constraint firstItem="zLs-XT-JLa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Fmq-4K-6xb"/>
+                            <constraint firstItem="zLs-XT-JLa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dDi-5M-yIr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
