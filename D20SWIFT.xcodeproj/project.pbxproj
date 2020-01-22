@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		013CC08B23D7C0D3003EF551 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013CC08A23D7C0D3003EF551 /* AVFoundation.framework */; };
+		013CC09A23D7D32D003EF551 /* rolldice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 013CC09623D7D32D003EF551 /* rolldice.mp3 */; };
+		013CC09B23D7D32D003EF551 /* zfanfare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 013CC09723D7D32D003EF551 /* zfanfare.mp3 */; };
+		013CC09C23D7D32D003EF551 /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 013CC09823D7D32D003EF551 /* torpedo.mp3 */; };
+		013CC09D23D7D32D003EF551 /* failwah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 013CC09923D7D32D003EF551 /* failwah.mp3 */; };
 		17AE8F3423D7906F00E7F56E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AE8F3323D7906F00E7F56E /* AppDelegate.swift */; };
 		17AE8F3623D7906F00E7F56E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AE8F3523D7906F00E7F56E /* SceneDelegate.swift */; };
 		17AE8F3823D7906F00E7F56E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AE8F3723D7906F00E7F56E /* ViewController.swift */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		013CC08A23D7C0D3003EF551 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		013CC09623D7D32D003EF551 /* rolldice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rolldice.mp3; sourceTree = "<group>"; };
+		013CC09723D7D32D003EF551 /* zfanfare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zfanfare.mp3; sourceTree = "<group>"; };
+		013CC09823D7D32D003EF551 /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
+		013CC09923D7D32D003EF551 /* failwah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = failwah.mp3; sourceTree = "<group>"; };
 		17AE8F3023D7906F00E7F56E /* D20SWIFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = D20SWIFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17AE8F3323D7906F00E7F56E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17AE8F3523D7906F00E7F56E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013CC08B23D7C0D3003EF551 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		013CC08923D7C0D3003EF551 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				013CC08A23D7C0D3003EF551 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		17AE8F2723D7906F00E7F56E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +102,7 @@
 				17AE8F4923D7907200E7F56E /* D20SWIFTTests */,
 				17AE8F5423D7907200E7F56E /* D20SWIFTUITests */,
 				17AE8F3123D7906F00E7F56E /* Products */,
+				013CC08923D7C0D3003EF551 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +119,10 @@
 		17AE8F3223D7906F00E7F56E /* D20SWIFT */ = {
 			isa = PBXGroup;
 			children = (
+				013CC09923D7D32D003EF551 /* failwah.mp3 */,
+				013CC09623D7D32D003EF551 /* rolldice.mp3 */,
+				013CC09823D7D32D003EF551 /* torpedo.mp3 */,
+				013CC09723D7D32D003EF551 /* zfanfare.mp3 */,
 				17AE8F3323D7906F00E7F56E /* AppDelegate.swift */,
 				17AE8F3523D7906F00E7F56E /* SceneDelegate.swift */,
 				17AE8F3723D7906F00E7F56E /* ViewController.swift */,
@@ -232,8 +256,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013CC09A23D7D32D003EF551 /* rolldice.mp3 in Resources */,
+				013CC09B23D7D32D003EF551 /* zfanfare.mp3 in Resources */,
 				17AE8F4023D7907200E7F56E /* LaunchScreen.storyboard in Resources */,
+				013CC09D23D7D32D003EF551 /* failwah.mp3 in Resources */,
 				17AE8F3D23D7907200E7F56E /* Assets.xcassets in Resources */,
+				013CC09C23D7D32D003EF551 /* torpedo.mp3 in Resources */,
 				17AE8F3B23D7906F00E7F56E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
