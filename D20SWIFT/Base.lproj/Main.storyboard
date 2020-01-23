@@ -23,22 +23,37 @@
                                     <constraint firstAttribute="width" secondItem="zLs-XT-JLa" secondAttribute="height" multiplier="17:19" id="qee-0N-t83"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKq-Ff-1oI">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKq-Ff-1oI">
                                 <rect key="frame" x="-407" y="0.0" width="1312" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1312" id="RqO-tv-oFa"/>
+                                </constraints>
                                 <connections>
                                     <action selector="rollDiceFromButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="oNZ-t1-oMc"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Critical Hit!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyl-Yp-h9x">
+                                <rect key="frame" x="20" y="239" width="374" height="63"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="48"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="bKq-Ff-1oI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-44" id="DGf-wg-0bk"/>
                             <constraint firstItem="zLs-XT-JLa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Fmq-4K-6xb"/>
+                            <constraint firstItem="bKq-Ff-1oI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-407" id="Mw2-PO-tyF"/>
+                            <constraint firstItem="dyl-Yp-h9x" firstAttribute="centerX" secondItem="zLs-XT-JLa" secondAttribute="centerX" id="R1S-0D-MHW"/>
+                            <constraint firstItem="dyl-Yp-h9x" firstAttribute="top" secondItem="zLs-XT-JLa" secondAttribute="top" id="Rrs-zt-GCK"/>
                             <constraint firstItem="zLs-XT-JLa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dDi-5M-yIr"/>
+                            <constraint firstItem="dyl-Yp-h9x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="jbt-Ev-p9g"/>
+                            <constraint firstItem="bKq-Ff-1oI" firstAttribute="centerY" secondItem="zLs-XT-JLa" secondAttribute="centerY" id="m47-eA-xlp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="criticalLabel" destination="dyl-Yp-h9x" id="n8m-xC-tKc"/>
                         <outlet property="diceImageView" destination="zLs-XT-JLa" id="NPx-FV-ch3"/>
                     </connections>
                 </viewController>
