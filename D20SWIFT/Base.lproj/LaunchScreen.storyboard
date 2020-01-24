@@ -15,8 +15,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Please hold...." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rxY-tN-5kL">
-                                <rect key="frame" x="85" y="307" width="245" height="101"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please hold...." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rxY-tN-5kL">
+                                <rect key="frame" x="84.5" y="307" width="245" height="101"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="245" id="Sd1-79-2ko"/>
+                                    <constraint firstAttribute="height" constant="101" id="Wrc-xK-eL4"/>
+                                    <constraint firstAttribute="width" secondItem="rxY-tN-5kL" secondAttribute="height" multiplier="245:101" id="dzk-pL-tK9"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -28,10 +33,12 @@
                                 </constraints>
                             </activityIndicatorView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="jdM-RM-mND" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="KF3-Mo-0yO"/>
+                            <constraint firstItem="rxY-tN-5kL" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Psl-Of-Hbj"/>
                             <constraint firstItem="rxY-tN-5kL" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="RYg-xm-zCm"/>
+                            <constraint firstItem="rxY-tN-5kL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="263" id="ZTL-Xc-Gsd"/>
                             <constraint firstItem="jdM-RM-mND" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dUl-u8-d7X"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

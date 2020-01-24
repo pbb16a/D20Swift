@@ -12,6 +12,7 @@
 		013CC09B23D7D32D003EF551 /* zfanfare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 013CC09723D7D32D003EF551 /* zfanfare.mp3 */; };
 		013CC09C23D7D32D003EF551 /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 013CC09823D7D32D003EF551 /* torpedo.mp3 */; };
 		013CC09D23D7D32D003EF551 /* failwah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 013CC09923D7D32D003EF551 /* failwah.mp3 */; };
+		013CC0A323DA75CD003EF551 /* d20_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 013CC0A223DA75CC003EF551 /* d20_icon.jpg */; };
 		17AE8F3423D7906F00E7F56E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AE8F3323D7906F00E7F56E /* AppDelegate.swift */; };
 		17AE8F3623D7906F00E7F56E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AE8F3523D7906F00E7F56E /* SceneDelegate.swift */; };
 		17AE8F3823D7906F00E7F56E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AE8F3723D7906F00E7F56E /* ViewController.swift */; };
@@ -45,6 +46,7 @@
 		013CC09723D7D32D003EF551 /* zfanfare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zfanfare.mp3; sourceTree = "<group>"; };
 		013CC09823D7D32D003EF551 /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
 		013CC09923D7D32D003EF551 /* failwah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = failwah.mp3; sourceTree = "<group>"; };
+		013CC0A223DA75CC003EF551 /* d20_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d20_icon.jpg; sourceTree = "<group>"; };
 		17AE8F3023D7906F00E7F56E /* D20SWIFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = D20SWIFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17AE8F3323D7906F00E7F56E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17AE8F3523D7906F00E7F56E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				17AE8F3C23D7907200E7F56E /* Assets.xcassets */,
 				17AE8F3E23D7907200E7F56E /* LaunchScreen.storyboard */,
 				17AE8F4123D7907200E7F56E /* Info.plist */,
+				013CC0A223DA75CC003EF551 /* d20_icon.jpg */,
 			);
 			path = D20SWIFT;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				17AE8F3D23D7907200E7F56E /* Assets.xcassets in Resources */,
 				013CC09C23D7D32D003EF551 /* torpedo.mp3 in Resources */,
 				17AE8F3B23D7906F00E7F56E /* Main.storyboard in Resources */,
+				013CC0A323DA75CD003EF551 /* d20_icon.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
